@@ -13,7 +13,7 @@ This repository serves as an archive of notes I created while studying and prepa
 | **3.0** &nbsp;&nbsp;[Hardware](./CompTIA_A+/1201/Hardware.md) | 25% |
 | **4.0** &nbsp;&nbsp;[Virtualization and Cloud Computing](./CompTIA_A+/1201/Virtual&Cloud.md) | 11% |
 | **5.0** &nbsp;&nbsp;[Hardware and Network Troubleshooting](./CompTIA_A+/1201/Hardware&NetworkTrob.md) | 28% |
-| <center>**Total**</center>          | **100%**                |
+| **Total**          | **100%**                |
 
 ### Core 2 (1202) Objectives
 
@@ -23,4 +23,4 @@ This repository serves as an archive of notes I created while studying and prepa
 | **2.0** &nbsp;&nbsp;[Security](./CompTIA_A+/1202/Security.md) | 28% |
 | **3.0** &nbsp;&nbsp;[Software Troubleshooting](./CompTIA_A+/1202/SoftwareTrob.md) | 23% |
 | **4.0** &nbsp;&nbsp;[Operational Procedures](./CompTIA_A+/1202/OpProcedure.md) | 21% |
-| <center>**Total**</center> | **100%** |
+| **Total** | **100%** |
