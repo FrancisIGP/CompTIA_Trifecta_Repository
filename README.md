@@ -1,4 +1,4 @@
-# CompTIA Repository
+## CompTIA Repository
 
 This repository serves as an archive of notes I created while studying and preparing for the CompTIA trifecta exams—A+, Network+, and Security+. It includes summaries, key concepts, and important details I found helpful during my review. I’ve made these notes publicly accessible so that anyone preparing for the same certifications can use them as study material or a reference to support their own learning.
 
