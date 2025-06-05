@@ -8,19 +8,19 @@ This repository serves as an archive of notes I created while studying and prepa
 
 | Domain                                      | Percentage of the Exam |
 |---------------------------------------------|:-----------------------:|
-| **1.0** [Mobile Devices](./CompTIA_A+/1201/MobileDevices.md) | 13% |
-| **2.0** [Networking](./CompTIA_A+/1201/Networking.md) | 23% |
-| **3.0** [Hardware](./CompTIA_A+/1201/Hardware.md) | 25% |
-| **4.0** [Virtualization and Cloud Computing](./CompTIA_A+/1201/Virtual&Cloud.md) | 11% |
-| **5.0** [Hardware and Network Troubleshooting](./CompTIA_A+/1201/Hardware&NetworkTrob.md) | 28% |
-| **Total**                                   | **100%**                |
+| **1.0** &nbsp;&nbsp;[Mobile Devices](./CompTIA_A+/1201/MobileDevices.md) | 13% |
+| **2.0** &nbsp;&nbsp;[Networking](./CompTIA_A+/1201/Networking.md) | 23% |
+| **3.0** &nbsp;&nbsp;[Hardware](./CompTIA_A+/1201/Hardware.md) | 25% |
+| **4.0** &nbsp;&nbsp;[Virtualization and Cloud Computing](./CompTIA_A+/1201/Virtual&Cloud.md) | 11% |
+| **5.0** &nbsp;&nbsp;[Hardware and Network Troubleshooting](./CompTIA_A+/1201/Hardware&NetworkTrob.md) | 28% |
+| <center>**Total**</center>          | **100%**                |
 
 ### Core 2 (1202) Objectives
 
 | Domain                                      | Percentage of the Exam |
 |---------------------------------------------|:-----------------------:|
-| **1.0** [Operating Systems](./CompTIA_A+/1202/OperatingSystems.md) | 28% |
-| **2.0** [Security](./CompTIA_A+/1202/Security.md) | 28% |
-| **3.0** [Software Troubleshooting](./CompTIA_A+/1202/SoftwareTrob.md) | 23% |
-| **4.0** [Operational Procedures](./CompTIA_A+/1202/OpProcedure.md) | 21% |
-| **Total** | **100%** |
+| **1.0** &nbsp;&nbsp;[Operating Systems](./CompTIA_A+/1202/OperatingSystems.md) | 28% |
+| **2.0** &nbsp;&nbsp;[Security](./CompTIA_A+/1202/Security.md) | 28% |
+| **3.0** &nbsp;&nbsp;[Software Troubleshooting](./CompTIA_A+/1202/SoftwareTrob.md) | 23% |
+| **4.0** &nbsp;&nbsp;[Operational Procedures](./CompTIA_A+/1202/OpProcedure.md) | 21% |
+| <center>**Total**</center> | **100%** |
