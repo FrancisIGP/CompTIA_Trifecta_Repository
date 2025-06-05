@@ -14,7 +14,7 @@ The table below lists the domains measured by this examination and the extent to
 These objectives are copied from CompTIA's objectives PDF.
 
 - [Official CompTIA A+ 220-1201 Exam Objectives](https://partners.comptia.org/docs/default-source/resources/comptia-a-220-1201-exam-objectives-(2-0))
-- [Official CompTIA A+ 220-1201 Exam Objectives](https://partners.comptia.org/docs/default-source/resources/comptia-a-220-1202-exam-objectives-(2-0))
+- [Official CompTIA A+ 220-1202 Exam Objectives](https://partners.comptia.org/docs/default-source/resources/comptia-a-220-1202-exam-objectives-(2-0))
 
 ### Core 1 (220-1201) Objectives
 
