@@ -18,23 +18,23 @@ These objectives are copied from CompTIA's objectives PDF.
 
 ### Core 1 (220-1201) Objectives
 
-| Domain                                      | Percentage of the Exam |
-|---------------------------------------------|:-----------------------:|
-| **1.0** &nbsp;&nbsp;[Mobile Devices](./CompTIA_A+/1201/MobileDevices.md) | 13% |
-| **2.0** &nbsp;&nbsp;[Networking](./CompTIA_A+/1201/Networking.md) | 23% |
-| **3.0** &nbsp;&nbsp;[Hardware](./CompTIA_A+/1201/Hardware.md) | 25% |
-| **4.0** &nbsp;&nbsp;[Virtualization and Cloud Computing](./CompTIA_A+/1201/Virtual&Cloud.md) | 11% |
-| **5.0** &nbsp;&nbsp;[Hardware and Network Troubleshooting](./CompTIA_A+/1201/Hardware&NetworkTrob.md) | 28% |
+| Domain                                      | Percentage of the Exam | Status |
+|---------------------------------------------|:-----------------------:|:-----:|
+| **1.0** &nbsp;&nbsp;[Mobile Devices](./CompTIA_A+/1201/MobileDevices.md) | 13% | WIP |
+| **2.0** &nbsp;&nbsp;[Networking](./CompTIA_A+/1201/Networking.md) | 23% | WIP |
+| **3.0** &nbsp;&nbsp;[Hardware](./CompTIA_A+/1201/Hardware.md) | 25% | WIP |
+| **4.0** &nbsp;&nbsp;[Virtualization and Cloud Computing](./CompTIA_A+/1201/Virtual&Cloud.md) | 11% | WIP |
+| **5.0** &nbsp;&nbsp;[Hardware and Network Troubleshooting](./CompTIA_A+/1201/Hardware&NetworkTrob.md) | 28% | WIP |
 | <div align="center">**Total**</div> | **100%** |
 
 ### Core 2 (220-1202) Objectives
 
-| Domain                                      | Percentage of the Exam |
-|---------------------------------------------|:-----------------------:|
-| **1.0** &nbsp;&nbsp;[Operating Systems](./CompTIA_A+/1202/OperatingSystems.md) | 28% |
-| **2.0** &nbsp;&nbsp;[Security](./CompTIA_A+/1202/Security.md) | 28% |
-| **3.0** &nbsp;&nbsp;[Software Troubleshooting](./CompTIA_A+/1202/SoftwareTrob.md) | 23% |
-| **4.0** &nbsp;&nbsp;[Operational Procedures](./CompTIA_A+/1202/OpProcedure.md) | 21% |
+| Domain                                      | Percentage of the Exam | Status |
+|---------------------------------------------|:-----------------------:|:-----:|
+| **1.0** &nbsp;&nbsp;[Operating Systems](./CompTIA_A+/1202/OperatingSystems.md) | 28% | WIP |
+| **2.0** &nbsp;&nbsp;[Security](./CompTIA_A+/1202/Security.md) | 28% | WIP |
+| **3.0** &nbsp;&nbsp;[Software Troubleshooting](./CompTIA_A+/1202/SoftwareTrob.md) | 23% | WIP |
+| **4.0** &nbsp;&nbsp;[Operational Procedures](./CompTIA_A+/1202/OpProcedure.md) | 21% | WIP |
 | <div align="center">**Total**</div> | **100%** |
 
 ## Suggestions or Issues?
