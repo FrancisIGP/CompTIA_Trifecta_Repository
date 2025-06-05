@@ -4,7 +4,7 @@ This repository serves as an archive of notes I created while studying and prepa
 
 <p align="left">
   <img src="https://img.shields.io/badge/Status-In Progress-brightgreen?style=flat-square" alt="Project Status" />
-  <img src="https://img.shields.io/badge/Current Chapter-2.0 Networking-blue?style=flat-square" alt="Chapter Count" />
+  <img src="https://img.shields.io/badge/Current Exam-CompTIA A+-blue?style=flat-square" alt="Chapter Count" />
 </p>
 
 ## CompTIA A+ Repository
