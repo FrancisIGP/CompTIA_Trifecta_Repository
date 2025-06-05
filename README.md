@@ -11,7 +11,12 @@ This repository serves as an archive of notes I created while studying and prepa
 
 The table below lists the domains measured by this examination and the extent to which they are represented. The exam is divided in to two parts Core 1 and Core 2. Click on the domain to view the contents for that specific topic.
 
-### Core 1 (1201) Objectives
+These objectives are copied from CompTIA's objectives PDF.
+
+- [Official CompTIA A+ 220-1201 Exam Objectives](https://partners.comptia.org/docs/default-source/resources/comptia-a-220-1201-exam-objectives-(2-0))
+- [Official CompTIA A+ 220-1201 Exam Objectives](https://partners.comptia.org/docs/default-source/resources/comptia-a-220-1202-exam-objectives-(2-0))
+
+### Core 1 (220-1201) Objectives
 
 | Domain                                      | Percentage of the Exam |
 |---------------------------------------------|:-----------------------:|
@@ -22,7 +27,7 @@ The table below lists the domains measured by this examination and the extent to
 | **5.0** &nbsp;&nbsp;[Hardware and Network Troubleshooting](./CompTIA_A+/1201/Hardware&NetworkTrob.md) | 28% |
 | <div align="center">**Total**</div> | **100%** |
 
-### Core 2 (1202) Objectives
+### Core 2 (220-1202) Objectives
 
 | Domain                                      | Percentage of the Exam |
 |---------------------------------------------|:-----------------------:|
@@ -37,3 +42,7 @@ The table below lists the domains measured by this examination and the extent to
 If you have suggestions for improving the content, spot any errors, or want to contribute additional material, you're welcome to get involved.
 
 You can submit a [pull request](https://github.com/FrancisIGP/CompTIA_Notes/pulls) if you'd like to propose specific changes or an [issue](https://github.com/FrancisIGP/CCNA-Document/issues) if you found any concerns or corrections. All contributions and feedback are appreciated to help make this resource better for everyone studying for the CompTIA trifecta.
+
+<br>
+
+**Content Reference:** &nbsp;[Professor Messer](https://www.professormesser.com/)
