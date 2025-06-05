@@ -136,4 +136,6 @@ The content for this material is based from the [Official CompTIA A+ 220-1201 Ex
 
 - These devices provide audio and video capabilities to your laptop which can be used for activities like audio and video conferencing.
 
+### 1.2 Compare and contrast accessories and connectivity options for mobile devices.
+
 ### WORK IN PROGRESS...
