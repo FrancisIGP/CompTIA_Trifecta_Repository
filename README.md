@@ -32,9 +32,7 @@ The table below lists the domains measured by this examination and the extent to
 | **4.0** &nbsp;&nbsp;[Operational Procedures](./CompTIA_A+/1202/OpProcedure.md) | 21% |
 | <div align="center">**Total**</div> | **100%** |
 
----
-
-### Suggestions or Issues?
+## Suggestions or Issues?
 
 If you have suggestions for improving the content, spot any errors, or want to contribute additional material, you're welcome to get involved.
 
