@@ -4,7 +4,7 @@ CompTIA A+ is an entry-level certification designed for individuals starting the
 
 ## CompTIA A+ Exam Objectives
 
-The table below lists the domains measured by this examination and the extent to which they are represented. The exam is divided in to two parts Core 1 and Core 2. Toggle the dropdown, then click on the domain to view its contents.
+The table below lists the domains measured by this examination and the extent to which they are represented. The exam is divided in to two parts Core 1 and Core 2. Click on the domain to view its contents.
 
 These objectives are copied from CompTIA's objectives PDF.
 

@@ -4,7 +4,7 @@ CompTIA Network+ is a certification that focuses on networking concepts and skil
 
 ## CompTIA Network+ Exam Objectives
 
-The table below lists the domains measured by this examination and the extent to which they are represented. Toggle the dropdown, then click on the domain to view its contents.
+The table below lists the domains measured by this examination and the extent to which they are represented. Click on the domain to view its contents.
 
 These objectives are copied from CompTIA's objectives PDF.
 
