@@ -104,11 +104,13 @@ The content for this material is based from the [Official CompTIA A+ 220-1201 Ex
 
 - Laptop have 802.11 for internet access over the local area network (LAN) and Bluetooth short range connections with other nearby devices over the personal area network (PAN) integrated into the system.
 
-- These networking capabilities are built into Peripheral Component Interconnect (PCI) components offering expansion cards that allows additional functionality to the system (e.g., network and sound cards).
+- Older systems would integrate these networking capabilities in Peripheral Component Interconnect (PCI) components offering expansion cards that allows additional functionality to the system (e.g., network and sound cards).
 
     - Some common PCI components are the Mini-PCI and Mini PCI Express (PCIe) which are both older standards for adding internal cards to laptops. 
     
     - Mini-PCIe is generally the more modern and preferred option due to its higher speed, smaller size, and imporved signal quality.
+
+- Newer systems would have these features integrated into the system.
 
 - Installing this component is also very similar to the other components but make sure to connect the wireless antenna wires, often grey and black, to the small connectors: WiFi (main), Sound (aux), and bluetooth.
 
@@ -123,6 +125,8 @@ The content for this material is based from the [Official CompTIA A+ 220-1201 Ex
     - Voice recognition
     - Iris scanning
     - etc.
+
+- In Windows you can find this at **Windows settings > Accounts > Sign-in options**
 
 ### Near Field Communication (NFC)
 
