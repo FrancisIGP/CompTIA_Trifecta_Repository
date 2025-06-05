@@ -11,7 +11,7 @@ This repository serves as an archive of notes I created while studying and prepa
 
 The CompTIA Trifecta refers to earning all three core CompTIA certifications: A+, Network+, and Security+. Together, these certifications build a strong foundation in IT support, networking, and cybersecurity, making them a popular path for those starting or advancing in IT careers. Click on the exam type below to view its contents!
 
-| Exam Name                                     | Number of exams | Status | 
+| Exam Name                                     | No. of exams | Status | 
 |---------------------------------------------|:-----------------------:|:----:|
 | **1.0** &nbsp;&nbsp;[CompTIA A+ Exam](./CompTIA_A+/A+.md) | 2 | Work in Progress |
 | **2.0** &nbsp;&nbsp;[CompTIA Network+ Exam](./CompTIA_N+/N+.md) | 1 | Work in Progress |
