@@ -9,6 +9,8 @@ This repository serves as an archive of notes I created while studying and prepa
 
 ## CompTIA A+ Repository
 
+The table below lists the domains measured by this examination and the extent to which they are represented. The exam is divided in to two parts Core 1 and Core 2. Click on the domain to view the contents for that specific topic.
+
 ### Core 1 (1201) Objectives
 
 | Domain                                      | Percentage of the Exam |
