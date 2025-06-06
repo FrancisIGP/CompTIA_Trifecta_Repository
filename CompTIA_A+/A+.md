@@ -15,11 +15,11 @@ These objectives are copied from CompTIA's objectives PDF.
 
 | Domain                                      | Percentage of the Exam |
 |---------------------------------------------|:-----------------------:|
-| **1.0** &nbsp;&nbsp;[Mobile Devices](./CompTIA_A+/1201/MobileDevices.md) | 13% | 
-| **2.0** &nbsp;&nbsp;[Networking](./CompTIA_A+/1201/Networking.md) | 23% |
-| **3.0** &nbsp;&nbsp;[Hardware](./CompTIA_A+/1201/Hardware.md) | 25% |
-| **4.0** &nbsp;&nbsp;[Virtualization and Cloud Computing](./CompTIA_A+/1201/Virtual&Cloud.md) | 11% |
-| **5.0** &nbsp;&nbsp;[Hardware and Network Troubleshooting](./CompTIA_A+/1201/Hardware&NetworkTrob.md) | 28% |
+| **1.0** &nbsp;&nbsp;[Mobile Devices](./1201/MobileDevices.md) | 13% | 
+| **2.0** &nbsp;&nbsp;[Networking](./1201/Networking.md) | 23% |
+| **3.0** &nbsp;&nbsp;[Hardware](./1201/Hardware.md) | 25% |
+| **4.0** &nbsp;&nbsp;[Virtualization and Cloud Computing](./1201/Virtual&Cloud.md) | 11% |
+| **5.0** &nbsp;&nbsp;[Hardware and Network Troubleshooting](./1201/Hardware&NetworkTrob.md) | 28% |
 | <div align="center">**Total**</div> | **100%** |
 
 ### Core 2 (220-1202)
