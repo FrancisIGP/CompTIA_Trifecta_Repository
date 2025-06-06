@@ -130,7 +130,7 @@ The content for this material is based from the [Official CompTIA A+ 220-1201 Ex
 
 ### Near Field Communication (NFC)
 
-- A short range networking function allowing data transfers or authentication. 
+- A short range networking function allowing data transfers or authentication (with encryption support). 
 
 - Common on mobile devices and smart watches. Might also see them on Identification Cards (ID) nowadays.
 
@@ -141,5 +141,59 @@ The content for this material is based from the [Official CompTIA A+ 220-1201 Ex
 - These devices provide audio and video capabilities to your laptop which can be used for activities like audio and video conferencing.
 
 ### 1.2 Compare and contrast accessories and connectivity options for mobile devices.
+
+## Connecting Mobile Devices
+
+- With the variety of devices at our disposal, we need to have a way to connect these devices in the network or with other devices.
+
+    - This can be wired or wireless connections. These connections are often designed with specific standards and specifications.
+
+    - These devices are more than just connectivity devices. They also provide other functionalities: synchronization, backup, identification, etc.
+
+- Universal Serial Bus (USB)
+
+    - High-speed wired communication often used for charging and data transfers.
+
+    - Mini-USB
+
+        - These are smaller versions of the USB which is commonly known worldwide. Comes with different variations:
+
+        - Common with older devices:
+
+            - Micro B Plug
+            - Mini B Plug
+            - Type A Plug
+
+        - Common with newer devices:
+
+            - USB-C
+
+                - A 24-pin double-sided USB connecter that can be used for both hosts and devices. It is designed to be a connector where you can be plugged in at any orientations and also supports higher speed connections.
+
+                - Replaces the older versions of USB connections up to latest standard of USB.
+                
+                - Can be used for different forms of signals:
+
+                    - Serial Connectivity
+                    - Display Port
+                    - HDMI
+                    - Thunderbolt
+
+            - Lightning Connector
+
+                - An 8-pin proprietary lightning connector built for apple devices.
+                - Has a much more simpler deisgn and has better support in power output compared to micro-USB's and can also be inserted in any orientation.
+
+- Since we have many variety of connectors that only supports certain devices, we might need to use a connector designed to support other connections to make it compatible with each other, such as a hub connector or female connector.
+
+- Bluetooth
+
+    - A high speed commmunication allowing different types of devices to connect with each other over short distances (Personal Area Network [PAN]).
+
+- Hotstop / Tethering
+
+    - A feature that allows to convert your device in to a peronal wireless router to extend wireless connectivity to surrounding devices.
+    
+    - This feature is integrated to your system software and will usually require a network provider, like a SIM card, for your phone to be able to have access to cellular data and share it with other devices. 
 
 ### WORK IN PROGRESS...
