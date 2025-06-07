@@ -79,9 +79,7 @@ The content for this material is based from the [Official CompTIA A+ 220-1201 Ex
 - More modern laptops would use a faster storage device known as the Solid-state Drive (SDD).
 
     - No moving parts (spinning disk) thus making it more reliable as we no longer have to worry about the spinning disk failing.
-
     - Silent, fast access time, less latency
-
     - 2.5 inch form factor
 
 - Other laptops with a more compact form factor would use a smaller storage form factor known as M.2 storage.
@@ -107,7 +105,6 @@ The content for this material is based from the [Official CompTIA A+ 220-1201 Ex
 - Older systems would integrate these networking capabilities in Peripheral Component Interconnect (PCI) components offering expansion cards that allows additional functionality to the system (e.g., network and sound cards).
 
     - Some common PCI components are the Mini-PCI and Mini PCI Express (PCIe) which are both older standards for adding internal cards to laptops. 
-    
     - Mini-PCIe is generally the more modern and preferred option due to its higher speed, smaller size, and imporved signal quality.
 
 - Newer systems would have these features integrated into the system.
@@ -142,12 +139,11 @@ The content for this material is based from the [Official CompTIA A+ 220-1201 Ex
 
 ### 1.2 Compare and contrast accessories and connectivity options for mobile devices.
 
-## Connecting Mobile Devices
+### Connecting Mobile Devices
 
 - With the variety of devices at our disposal, we need to have a way to connect these devices in the network or with other devices.
 
     - This can be wired or wireless connections. These connections are often designed with specific standards and specifications.
-
     - These devices are more than just connectivity devices. They also provide other functionalities: synchronization, backup, identification, etc.
 
 - Universal Serial Bus (USB)
@@ -195,5 +191,37 @@ The content for this material is based from the [Official CompTIA A+ 220-1201 Ex
     - A feature that allows to convert your device in to a peronal wireless router to extend wireless connectivity to surrounding devices.
     
     - This feature is integrated to your system software and will usually require a network provider, like a SIM card, for your phone to be able to have access to cellular data and share it with other devices. 
+
+### 1.2 Compare and Contrast Accessories and Connectivity Options for Mobile Devices
+
+### Accessories for Mobile Devices
+
+- **Touch pens**  
+    - Also called touchscreen pens, capacitive styluses, or just styluses, these are used for note-taking, signing digital documents, or tapping UI elements with more precision than a finger.
+
+    - **Active stylus**  
+        - Also known as a digital stylus, this is primarily designed for artists or users who require pressure sensitivity and palm rejection. It often includes programmable buttons and can detect hovering above the screen. These are usually device-specific—for example, the Apple Pencil only works with iPads.
+
+- **Headsets**  
+    - These allow audio input and output and can connect via Bluetooth (wireless), USB, Lightning (for Apple devices), or a 3.5mm TRRS analog audio jack. The TRRS jack enables simultaneous transmission of microphone input and headphone output, making it suitable for calls and meetings.
+
+- **Speakers**  
+    - External speakers provide stereo sound output and often run on rechargeable lithium-ion batteries, just like many other external accessories including headsets, phones, and external trackpads.
+
+- **Webcam**  
+    - Used for capturing video and images, webcams are built into laptops, tablets, and phones but can also be connected externally to desktop computers for video conferencing and recording.
+
+- **Docking station**  
+    - A device that allows quick connection to multiple peripherals (e.g., printers, monitors, keyboards, mice) by connecting the laptop to a single port. Some models support adapter cards for added hardware functionality.
+
+- **Port replicator**  
+    - Works like a docking station but connects through a USB cable rather than docking the laptop. It is smaller and typically does not support adapter cards. Useful for users with limited ports (e.g., USB-C-only MacBooks) who need access to HDMI, Ethernet, or USB-A ports.
+
+- **Trackpad**  
+    - Replaces the mouse on laptops and can also be used externally (e.g., Apple’s Magic Trackpad). Some laptops allow disabling the trackpad using a function key to avoid accidental touches while typing.
+
+- **Drawing pad**  
+    - An external input device (e.g., Wacom tablet) that adds touchscreen capabilities to non-touch laptops. It combines a digitizer with an active stylus and is useful for artists and designers needing precise control, typically supporting multiple operating systems.
+
 
 ### WORK IN PROGRESS...
