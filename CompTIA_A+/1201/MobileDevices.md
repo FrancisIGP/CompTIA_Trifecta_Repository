@@ -223,5 +223,119 @@ The content for this material is based from the [Official CompTIA A+ 220-1201 Ex
 - **Drawing pad**  
     - An external input device (e.g., Wacom tablet) that adds touchscreen capabilities to non-touch laptops. It combines a digitizer with an active stylus and is useful for artists and designers needing precise control, typically supporting multiple operating systems.
 
+### Mobile Device Networks
+
+- Mobile devices, also referred to as Cellphones, were derived from the term "cell" which comes from cellular networks.
+
+- Cellular networks, also known as mobile networks, are wireless telecommunication networks that allows utilizes antennas or base stations (cell towers) to provide wireless connectivity to our devices.
+
+    - Allows voice and data communication and can be enabled through your settings with ease.
+    - You can also disable all forms of communication by enabling airplane mode.
+
+- 3G Technology
+
+    - This wireless technology was introduced in 1988.
+    
+    - Allows our mobile devices to send large amounts of data over the network, thus increasing its overall capabilities. Some of these capabilitiesa are:
+
+        - Global Positioning System (GPS)
+        - Mobile Television
+        - Video on demand
+        - Video conferencing
+        - etc.
+
+- 4G and Long Term Evolution (LTE)
+
+    - The successor of 3G technology, which is based on the Global System for Mobile Communication (GSM) network, also known as Enhanced Data Rates for GSM Evolution (EDGE).
+
+    - Additionally, it is a converged standard, so providers that used to be GSM or CDMA could now use one standard LTE to be able to send data over a wireless network as GSM and CDMA posed challenges for users who wanted to move between providers or use different networks available in their area
+
+    - Supports faster download rates of 150 Mbit/s
+
+    - Long Term Evolution Advanced (LTE-A)
+
+        - Some areas may support LTE-A which is an improved version of LTE, as the name suggests.
+
+        - Supports an even faster download rate of 300 Mbit/s.
+
+- 5G Technology
+
+    - A modern technology, launched on 2020, that supports higher frequencies and faster rates up to 10 gigabits/s. 
+
+    - Can run up to 100-900 Mbit/s on other networks and frequencies, on slower speeds.
+
+    - Due to higher bandwidth support, we can now support Internet of Things (IoT). This also allows us to receive notifications and upload large amounts of data in to the cloud faster. 
+    
+- WiFi (802.11)
+
+    - 802.11 provides wireless connectivity whenever cellular networks are slow or unavailable.
+
+    - Unlike Cellular networks that uses big carrier-owned towers that blanket large areas, Wi-Fi (IEEE 802.11) uses small access points or home/office routers that cover only a room, house, or building.
+
+    - Cell towers can follow you for kilometers; Wi-Fi drops off after ~30-90 m indoors (walls cut it even shorter).
+
+    - Cell uses licensed frequencies your provider pays for; Wi-Fi uses unlicensed 2.4 GHz/5 GHz/6 GHz bands anyone can deploy.
+
+    - Once you’re on either network it’s just IP packets, so voice (VoIP), video streaming, file transfers—no problem on 802.11 as long as the signal’s solid and the LAN/Internet uplink can handle it.
+
+    - Cellular networks build in QoS and seamless hand-offs between towers. Wi-Fi usually doesn’t, so congestion or roaming between APs can hurt performance.
+
+- Hotspot
+
+    - Enabling this feature converts your mobile devices in to a personal wireless router extending cellular connectivity to its surrounding devices over 802.11.
+
+    - This requires you to have a mobile carrier, which provides cellular connectivity through a subscription or data plan, allowing your device to access the internet and other mobile services.
+
+- Subscriber Identity Module (SIM)
+
+    - It is a small physical card instlled or sometimes embedded in to your system and is used as an identifier so mobile carriers can recognize your device.
+
+    - Contains information that can be used to identify your phone:
+
+        - SIM ID and phone number
+        
+        - Cellular network information
+        
+        - Storage space for contacts, messages, etc.
+
+    - Embedded SIM (eSIM)
+
+        - An eSIM (embedded SIM) is a modernized digital version of a physical SIM card embedded in to your system. Instead of inserting a physical SIM into your phone, the eSIM is built into the device and can be programmed remotely by your mobile carrier.
+
+        - Makes transferring profiles much easier via software; eliminates the manual removal of SIM cards with the use of a SIM ejector.
+
+    - Many devices nowadays supports multiple SIMs.
+
+- Bluetooth Pairing Process
+
+    - Enable Bluetooth via phone settings.
+
+    - Enable pairing mode. It is a security feature that lets you approve devices before connecting.
+
+    - Bluetooth is a one-time setup. Pairing is only needed once; future connections should happen automatically.
+
+    - Make the device discoverable which is usually done by pressing/holding a button; check the device manual for exact steps.
+
+    - Search for devices on your phone, scan for nearby Bluetooth devices.
+
+    - Enter the PIN code, often "0000" or "1234" by default, or verify the PIN displayed on the screen.
+
+    - Test the connection and ensure the device is working as expected (e.g., audio, data transfer).
+
+- Location Services
+
+    - These services are used for geotracking in apps like Maps.
+
+    - Global Positioning System (GPS) – Satellite-based navigation system.
+
+        - Over 30 satellites in orbit, developed by the U.S. Department of Defense (DoD).
+
+        - Phone must connect to at least 4 satellites to calculate a precise location.
+        
+        - Determines latitude, longitude, and altitude by measuring time differences in satellite signals.
+    
+    - Cellular & Wi-Fi Location Services 
+        
+        - Phones can also use nearby cell towers and Wi-Fi signals to improve accuracy (triangulation, similar to how calls can be traced).
 
 ### WORK IN PROGRESS...
