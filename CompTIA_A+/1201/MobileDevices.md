@@ -338,4 +338,68 @@ The content for this material is based from the [Official CompTIA A+ 220-1201 Ex
         
         - Phones can also use nearby cell towers and Wi-Fi signals to improve accuracy (triangulation, similar to how calls can be traced).
 
-### WORK IN PROGRESS...
+### Mobile Device Management
+
+- Mobile Device Manager/Management (MDM)
+
+    - A centralized management system for managing devices, such as in a company.
+
+- Bring Your Own Device (BYOD)
+
+    - Allows you to bring your own personal device to use at work. Beneficial so that workers won't have to bring two separate devices at work.
+
+    - Might require a specialized function to secure how company data is handled within those devices. An MDM can help by modifying the device's capabilites and implement security policies, remotely, such as requiring biometrics and backup plans in case the device got stolen or lost.
+
+    - Device managers can parition a device to segregate company data with personal data.
+
+- Corporate Owned Personally Enabled (COPE)
+
+    - A company-owned device specifically purchased for worker consumption and is under full control of the company via a management system.
+
+    - Similar to BYOD, company data is also protected by including corporate policies in case these devices are lost, broken, or stolen.
+
+        - Information can be deleted at any time.
+
+    - Can be utilized for both personal and professional reasons. 
+
+- Choose Your Own Device (CYOD)
+
+    - Users or workers can choose the type of device they can use for work.
+
+- MDM Policy Enforcement
+
+    - Having your device managed by a central MDM policy can be efficient by simplifying the process as you can manage and pre-configure everything from the device without having to do anything, such as:
+
+        - Corporate email configuration
+
+        - Account details
+        
+        - Server address
+        
+        - Communication method
+
+        - Application configurations/synchronizations
+
+        - Security Policies
+
+            - Two-Factor Authentication
+            - Biometrics
+            - Backup
+            - etc.
+        
+        - Corporate Applications
+            
+            - Allow or restrict applications
+            - Prevent unauthorized app usage
+        
+        - Data Synchronization
+            
+            - You may configure how data are synchronized to these devices, WiFi or Cellular Data, such as calendar settings and contact details.
+
+            - Can also configure how data are restored when the device got lost, stolen, or damaged.
+
+            - Can be beneficial for resource management (data caps and transfer cost).
+   
+                - Limit data consumption
+
+### Go to the next part - [2.0 Networking](./Networking.md)
