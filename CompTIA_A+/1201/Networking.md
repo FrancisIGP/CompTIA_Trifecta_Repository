@@ -124,4 +124,111 @@ The content for this material is based from the [Official CompTIA A+ 220-1201 Ex
 
 > Think: NetBIOS says **“Hi, I found you!”**, SMB says **“Cool, now send me the file.”**
 
+### Wireless Technologies
+
+- The standards for wireless networks come from an Industrial Electrical Electronics Engineers (IEEE) LAN/MAN Standards Comittee called the **IEEE 802** committee and the wireless networking part of this committee is the **802.11** standard.
+
+- many updates over time, check with IEEE for the latest.
+
+- instead of referring to them as 802.11 wireless networks, you can call it a **Wi-Fi** network.
+
+	- This is a trademark from the Wi-Fi Alliance who is responsible for testing the interoperability of all of these different wireless devices
+
+    - These WiFi networks can also be referenced as generations:
+
+        - 802.11ac is WiFi 5
+        - 802.11ax is WiFi 6 and WiFi 6E (Extended)
+        - 802.11be is WiFi 7
+        - Future versions will increment accordingly.
+
+Here's an elaborated and corrected version to clarify and fix common misconceptions about frequencies, channels, and bandwidth in wireless networks:
+
+- Frequencies
+
+    - Wireless networks operate on different frequency bands, primarily **2.4 GHz**, **5 GHz**, and more recently **6 GHz** (used in Wi-Fi 6E).
+
+    - These frequency bands define **how far and how fast** data can travel:
+
+        - **2.4 GHz**: Has **longer range** but **lower speeds** and is more prone to interference (used by many devices like microwaves, Bluetooth, etc.).
+        - **5 GHz**: Offers **faster speeds** and **less interference**, but with **shorter range**.
+        - **6 GHz**: Provides **even more channels**, **higher speeds**, and **lower latency**, but requires **Wi-Fi 6E compatible devices**.
+
+    - Some routers use **dual-band or tri-band** technology to operate on **multiple frequencies** simultaneously, improving speed and reducing congestion.
+
+- Channels
+
+    - Each frequency band is divided into **smaller segments called channels**. These are used to carry the wireless signal.
+
+    - For example, the **2.4 GHz** band has **14 channels** (in some regions), but only **3 non-overlapping channels** (1, 6, and 11) to prevent interference.
+
+    - The **5 GHz** and **6 GHz** bands have many more channels, and most of them are **non-overlapping**, reducing interference and increasing performance.
+
+    - Channels are assigned and regulated by **IEEE standards** and **regional regulations**, meaning not all channels are available in every country.
+
+- Bandwidth
+
+    - **Bandwidth** in wireless networking has **two related meanings**, often confused:
+
+        - **Channel Width** (in MHz):
+
+            - This is the **amount of frequency space** used for a single wireless channel.
+            - Common widths are **20, 40, 80, and 160 MHz**.
+            - Wider channels allow more data to be transmitted at once, increasing potential speed.
+            - However, wider channels can cause more **interference** and are more likely to **overlap** with other channels, especially in congested areas.
+            - Example: A channel on the 5 GHz band using 80 MHz can carry more data, but may interfere with nearby channels if not planned properly.
+
+        - **Data Bandwidth** (in Mbps or Gbps):
+
+            - This is the **amount of data** that can be transferred **per second** across a network.
+            - Affected by:
+                - Channel width
+                - Frequency band
+                - Signal strength and quality
+                - Distance from the access point
+                - Network congestion and interference
+
+    - More bandwidth **(in MHz)** generally allows for **higher throughput**, but actual performance depends on multiple environmental and technical factors.
+
+- Bluetooth
+
+    - Bluetooth is a **short-range wireless technology** used for connecting devices over distances up to **10 meters**.
+
+    - Common Bluetooth devices include:
+
+        - Headsets
+        - Speakers
+        - Keyboards and mice
+        - Fitness trackers and smartwatches
+
+    - Bluetooth operates in the **2.4 GHz** ISM (Industrial, Scientific, Medical) band, which is **unlicensed**—meaning no special permission is required to use it.
+
+- Radio-frequency Identification (RFID)
+
+    - RFID is a wireless communication method that uses **radio waves** to **identify and track objects**.
+
+    - RFID tags come in two types:
+
+        - **Passive RFID**:
+
+            - No battery; powered by the radio waves from the reader.
+            - Typically used for **short-range scanning** (like in access cards or inventory tags).
+
+        - **Active RFID**:
+
+            - Battery-powered; doesn't rely on external radio waves.
+            - Capable of **longer-range communication**.
+
+    - Supports **bidirectional communication**, allowing the tag and reader to exchange data.
+
+- Near Field Communication (NFC)
+
+    - NFC is based on RFID technology but is designed for **two-way communication** over **very short distances** (usually less than 4 cm).
+
+    - Common uses include:
+        - Contactless payments (e.g., Apple Pay, Google Pay)
+        - Identity verification
+        - Authentication and access control
+
+    - NFC is often used to **initiate** connections with other wireless technologies (like Wi-Fi or Bluetooth), supplying configuration data needed for the connection.
+
 ### WORK IN PROGRESS...
