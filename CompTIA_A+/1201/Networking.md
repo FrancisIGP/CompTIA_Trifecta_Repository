@@ -141,8 +141,6 @@ The content for this material is based from the [Official CompTIA A+ 220-1201 Ex
         - 802.11be is WiFi 7
         - Future versions will increment accordingly.
 
-Here's an elaborated and corrected version to clarify and fix common misconceptions about frequencies, channels, and bandwidth in wireless networks:
-
 - Frequencies
 
     - Wireless networks operate on different frequency bands, primarily **2.4 GHz**, **5 GHz**, and more recently **6 GHz** (used in Wi-Fi 6E).
