@@ -4,7 +4,7 @@ The content for this material is based from the [Official CompTIA A+ 220-1201 Ex
 
 ## 1.0 Mobile Devices
 
-### 1.1 Given a scenario, monitor mobile device hardware and use appropriate replacement techniques.
+### 1.1 Given a scenario, monitor mobile device hardware and use appropriate replacement techniques
 
 ### Laptop Hardware
 
@@ -137,7 +137,7 @@ The content for this material is based from the [Official CompTIA A+ 220-1201 Ex
 
 - These devices provide audio and video capabilities to your laptop which can be used for activities like audio and video conferencing.
 
-### 1.2 Compare and contrast accessories and connectivity options for mobile devices.
+### 1.2 Compare and contrast accessories and connectivity options for mobile devices
 
 ### Connecting Mobile Devices
 
@@ -192,8 +192,6 @@ The content for this material is based from the [Official CompTIA A+ 220-1201 Ex
     
     - This feature is integrated to your system software and will usually require a network provider, like a SIM card, for your phone to be able to have access to cellular data and share it with other devices. 
 
-### 1.2 Compare and Contrast Accessories and Connectivity Options for Mobile Devices
-
 ### Accessories for Mobile Devices
 
 - **Touch pens**  
@@ -222,6 +220,8 @@ The content for this material is based from the [Official CompTIA A+ 220-1201 Ex
 
 - **Drawing pad**  
     - An external input device (e.g., Wacom tablet) that adds touchscreen capabilities to non-touch laptops. It combines a digitizer with an active stylus and is useful for artists and designers needing precise control, typically supporting multiple operating systems.
+
+### 1.3 Given a scenario, configure basic mobile device network connectivity and provide application support
 
 ### Mobile Device Networks
 
