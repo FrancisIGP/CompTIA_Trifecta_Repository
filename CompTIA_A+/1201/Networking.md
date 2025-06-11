@@ -4,7 +4,7 @@ The content for this material is based from the [Official CompTIA A+ 220-1201 Ex
 
 ## 2.0 Networking
 
-### 2.1 Compare and contrast Transmission Control Protocol (TCP) and User Datagram Protocol (UDP) ports, protocols, and their purposes.
+### 2.1 Compare and contrast Transmission Control Protocol (TCP) and User Datagram Protocol (UDP) ports, protocols, and their purposes
 
 ### Introduction to IP
 
@@ -124,6 +124,8 @@ The content for this material is based from the [Official CompTIA A+ 220-1201 Ex
 
 > Think: NetBIOS says **“Hi, I found you!”**, SMB says **“Cool, now send me the file.”**
 
+### 2.2 Explain wireless networking technologies
+
 ### Wireless Technologies
 
 - The standards for wireless networks come from an Industrial Electrical Electronics Engineers (IEEE) LAN/MAN Standards Comittee called the **IEEE 802** committee and the wireless networking part of this committee is the **802.11** standard.
@@ -228,5 +230,245 @@ The content for this material is based from the [Official CompTIA A+ 220-1201 Ex
         - Authentication and access control
 
     - NFC is often used to **initiate** connections with other wireless technologies (like Wi-Fi or Bluetooth), supplying configuration data needed for the connection.
+
+### 2.3 Summarize services provided by networked hosts
+
+### Network Services
+
+- Most services we use on the internet such as web and DNS servers are ran by physical servers, often located on data centers or in a secure isolated area. These servers are built with multiple technologies that run different services.
+
+- Domain Name System (DNS)
+
+  - Converts names to IP addresses and vice versa.
+
+  - The load on these servers is evenly distributed across many different servers worldwide 
+  based on the domain name they support.
+  
+  - DNS servers retrieve the website itself or a cached version of it when accessed.
+  
+  - DNS servers are usually managed by your Internet Service Provider (ISP) or enterprise IT department.
+
+- Dynamic Host Configuration Protocol (DHCP)
+  
+  - A widely used service primarily assigned for automatic IP address and configuration assignment to devices within a local area network (LAN).
+  
+  - Enterprise networks usually have multiple DHCP servers to provide redundancy in case one becomes unavailable.
+
+- File Share
+  
+  - A centralized file-sharing system where files are stored and can be easily accessed by other people within the organization.
+  
+  - Runs a standard type of file service depending on its environment: Server Message Block (SMB), Apple Filing Protocol (AFP), etc.
+  
+  - Some file-sharing services may hide the specific protocol being used to manage these files.
+
+- Print Server
+  
+  - A printing service that allows you to remotely assign print jobs, queue them, and ensure they are printed successfully.
+  
+  - This service can be integrated into an independent system linked to the printer or built into the printer itself via a network card.
+  
+  - Uses standard printing protocols:
+  
+    - Server Message Block (SMB)
+    - Internet Printing Protocol (IPP)
+    - Line Printer Daemon (LPD)
+
+- Mail Server
+  
+  - Responsible for handling and managing incoming and outgoing email messages for your system.
+  
+  - Also managed by ISPs or enterprise IT departments.
+  
+  - One of the few services with very high uptime expectations (24/7 support), as it often needs to be available at any given moment, requiring proper installation and maintenance.
+
+- System Log (Syslog)
+  
+  - A very useful debugging service that allows you to consolidate all accumulated system log files from different sources into a centralized database.
+  
+  - These log files are usually stored on a central logging receiver called a Security Information and Event Manager (SIEM), which allows you to access log files from one consolidated point.
+  
+  - Due to its high resource demands, it requires substantial disk space to store numerous existing and incoming log files from various systems.
+
+- Web Server
+  
+  - Responsible for responding to browser requests using browsing protocols such as HTTP/HTTPS to access websites.
+  
+  - These websites are built with HTML/HTML5, containing the content of the website, which is then interpreted and displayed graphically by the browser.
+
+- Authentication Server
+  
+  - An authentication service that verifies your login credentials (username/password) and grants access to the respective service.
+  
+    - Sometimes referred to as Authentication, Authorization, and Accounting (AAA) server.
+  
+  - Has a centralized database where all user credentials are stored and managed.
+  
+  - Often implemented in enterprise networks to provide high security and ensure continuous access to credentials through redundant authentication servers.
+
+- Database Server
+  
+  - Stores information in tables or spreadsheet-like formats, allowing you to create relations called "relational databases" that link data together.
+  
+  - Uses a standard language called Structured Query Language (SQL) to store, manage, and access these databases.
+  
+    - Examples include Microsoft SQL Server, MySQL, etc.
+
+- Network Time Protocol (NTP)
+  
+  - Synchronizes the time on devices, ensuring all system clocks are up-to-date.
+  
+  - Beneficial for processes such as comparing log files and using encryption technologies that require accurate system date and time.
+  
+  - NTP servers are often redundant and reference a central clock to maintain consistent configurations across servers.
+  
+  - Your local computer, whether it runs Windows, Linux, or another operating system (OS), will have an NTP client configured to periodically check and update the system’s date and time via an NTP server.
+
+### Internet Appliances
+
+- Spam Gateways
+  
+  - A filtering service that evaluates incoming emails to identify and separate legitimate emails from spam, phishing, or malicious emails.
+  
+    - Often deployed as a separate cloud service or independent system that scans email content, sender reputation, attachments, and embedded links.
+  
+    - Not always 100% accurate — sometimes legitimate emails can mistakenly end up in spam folders (false positives).
+  
+  - Helps reduce unwanted or potentially harmful emails, allowing users to focus on important and relevant communications.
+
+- All-in-one Security Appliance
+  
+  - A comprehensive security device, often referred to as Unified Threat Management (UTM) or Web Security Gateway, placed at the network perimeter to protect internal networks from external threats.
+  
+  - Combines multiple security and network management functions into a single appliance, simplifying deployment and administration while providing broad protection.
+  
+  - Typical functions include:
+  
+    - URL filtering / content inspection – Blocks access to dangerous or inappropriate websites.
+  
+    - Malware inspection – Scans incoming and outgoing traffic for viruses, worms, and other malware.
+  
+    - Spam filtering – Blocks unsolicited or malicious emails.
+    
+    - CSU/DSU – Connects digital WAN lines (less common today but still used in some environments).
+    
+    - Router / switch – Provides basic routing and switching capabilities.
+    
+    - Firewall – Controls incoming and outgoing network traffic based on security rules.
+    
+    -  Intrusion Prevention/Detection System (IPS/IDS) – Detects and blocks network attacks and suspicious behavior.
+    
+    - Bandwidth shaping – Manages and prioritizes network traffic to optimize performance.
+    
+    - VPN endpoint – Allows secure remote access through Virtual Private Network connections.
+    
+    - Others – May also include SSL inspection, DLP (Data Loss Prevention), and more depending on the model.
+
+- Load Balancer
+ 
+  - A network device or software that distributes incoming traffic across multiple servers or resources to ensure no single server becomes overloaded.
+ 
+  - Helps improve performance, prevent downtime, and optimize resource usage by sharing the workload evenly.
+  
+  - Commonly used for:
+
+    - Web servers
+    - Database servers
+    - Application servers
+  
+  - Can perform health checks to detect if a server is down, and automatically reroute traffic to healthy servers (failover).
+  
+  - Types of load balancing methods include:
+  
+    - Round Robin – rotates requests evenly across servers.
+  
+    - Least Connections – directs traffic to the server with the fewest active connections.
+  
+    - IP Hash – routes based on the client’s IP address.
+
+- Proxy Server
+  
+  - An intermediary server that sits between a client (such as a user's computer) and the internet, forwarding requests and responses.
+  
+  - Common functions include:
+  
+    - **Content filtering** – blocks access to certain websites or types of content based on organizational policies.
+  
+    - **Caching** – stores copies of frequently accessed web pages to speed up response times and reduce internet bandwidth usage.
+  
+    - **Anonymity** – hides the client’s real IP address, helping to protect privacy and security.
+  
+    - **Security** – can block malicious sites or monitor traffic for suspicious activity.
+  
+    - etc.
+    
+  - Types of proxies:
+  
+    - **Forward Proxy** – used by clients inside a network to access external resources.
+  
+    - **Reverse Proxy** – sits in front of web servers to handle incoming requests, often used for load balancing, caching, or security.
+  
+  - Often used in corporate environments, schools, and data centers.
+
+- SCADA / ICS
+
+  - SCADA stands for Supervisory Control and Data Acquisition. 
+
+  - Large scale, multi-site Industrial Control System (ICS).
+
+  - Both are used to monitor, manage, control, and automate operations remotely across the network. 
+  
+  - Often used in industrial operations such as:
+  
+    - Manufacturing
+    - Power plants
+    - Water treatment
+    - Oil and gas pipelines
+    - Transportation systems
+
+  - SCADA / ICS systems collect real-time data from sensors, machines, and equipment, then display this data to operators who can monitor or control the system remotely.
+
+    - Security is critical since these systems control critical infrastructure and can be targeted by cyberattacks. This is achieved by placing them on secured and segmented networks that can only be accessed physically or through highly controlled systems.
+
+  - SCADA / ICS systems prioritize:
+  
+    - High availability
+    - Real-time response
+    - Safety and reliability
+
+- Legacy and Embedded Systems
+
+  - Legacy systems are older hardware or software still in use because they are stable, costly to replace, or critical for specific operations.
+
+  - These systems may not support modern security features or updates, making them vulnerable to threats if not properly isolated or maintained.
+
+  - Embedded systems are purpose-built computing systems designed to perform dedicated tasks within larger devices.
+
+  - They often operate with limited computing resources, run specialized software, and are designed for long-term, stable operation.
+
+  - Embedded systems are found in:
+    - Industrial automation (PLCs, controllers)
+    - Consumer electronics (smart TVs, appliances, cameras)
+    - Automotive systems (engine control units, airbags, infotainment)
+    - Healthcare equipment (monitors, pacemakers)
+
+  - Both legacy and embedded systems can pose security risks if not properly isolated, maintained, or secured, since many were not designed with modern cybersecurity threats in mind.
+
+- Internet of Things (IoT)
+
+  - IoT refers to a network of physical devices connected to the internet that collect, exchange, and process data.
+
+  - IoT devices include:
+
+    - Smart home devices (e.g. thermostats, lights, locks)
+    - Wearables (e.g. fitness trackers, smartwatches)
+    - Industrial sensors
+    - Smart city infrastructure
+
+  - IoT devices often communicate remotely through cloud platforms, mobile apps, or management systems.
+
+  - Security is a major concern due to the large number of devices, varying security standards, and the sensitive data being collected.
+
+  - Proper network segmentation, firmware updates, and strong authentication can help secure IoT environments.
 
 ### WORK IN PROGRESS...
