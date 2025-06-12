@@ -507,15 +507,15 @@ The content for this material is based from the [Official CompTIA A+ 220-1201 Ex
      └─── .org
 ```
 
-- Root Domain (.): The conceptual top of the DNS tree.
+  - Root Domain (.): The conceptual top of the DNS tree.
 
-- Top-Level Domains (TLDs): Directly below the root, these include familiar extensions like .com, .net, .edu, and .org.
+  - Top-Level Domains (TLDs): Directly below the root, these include familiar extensions like .com, .net, .edu, and .org.
 
-- Second-Level Domains (e.g., .professormesser): Registered names directly under a TLD.
+  - Second-Level Domains (e.g., .professormesser): Registered names directly under a TLD.
 
-- Subdomains (e.g., www, live, mail, east, west): Further divisions under a second-level domain. These can be used to organize content or services (e.g., mail.professormesser.com).
+  - Subdomains (e.g., www, live, mail, east, west): Further divisions under a second-level domain. These can be used to organize content or services (e.g., mail.professormesser.com).
 
-- Hosts/Entities (e.g., trey, katie, ethan, judy): The lowest level shown, representing specific devices or users within a subdomain.
+  - Hosts/Entities (e.g., trey, katie, ethan, judy): The lowest level shown, representing specific devices or users within a subdomain.
 
 - DNS lookup
 
@@ -616,5 +616,83 @@ Address: 104.22.72.108
    - Make sure to make backups to prevent problems.
 
 - DNS Configuration
+
+  - DNS server configurations can be modified via the raw configuration file or via a web-based interface that can be easily viewed, modified, and managed by an administrator.
+
+  - Address records (A)(AAAA)
+
+    - Defines the IP address for a specific host name.
+
+    - A Record (Address Record) - records for IPv4 addresses
+
+      - Maps a domain name to an IPv4 address.
+      - Example: google.com → 142.250.190.14
+
+    - AAAA Record (IPv6 Address Record) - records for IPv6 addresses
+
+      - Maps a domain name to an IPv6 address.
+      - Example: google.com → 2607:f8b0:4009:80b::200e
+
+  - Time to Live (TTL) - Extra Info
+
+    - TTL is a value in DNS records that tells how long the information should be cached by DNS servers and clients before they check for updated data. It’s measured in seconds.
+
+    - Example: TTL = 3600 → cache the record for 1 hour.
+
+    - Why TTL matters:
+
+      - **Lower TTL** means faster updates (good for frequently changing records), but causes more DNS lookups, which can slightly increase traffic.
+      
+      - **Higher TTL** means fewer lookups and better performance, but changes take longer to propagate if you update the DNS record.
+
+    - TTL is set when you configure your DNS records in your DNS management system.
+
+  - Canonical name records (CNAME)
+
+    - A DNS record used to assign alias for addressing different names. Useful for multi-functional servers with different services under a single name.
+
+    - Example:
+
+      - www.example.com has a CNAME pointing to example.com.
+
+      - Then example.com resolves to an A record with IP 93.184.216.34.
+
+      - 3600 is the TTL (time to live) in seconds.
+
+```
+dig www.example.com CNAME
+
+; <<>> DiG 9.16.1-Ubuntu <<>> www.example.com CNAME
+;; ANSWER SECTION:
+www.example.com.   3600   IN   CNAME   example.com.
+example.com.       3600   IN   A       93.184.216.34
+```
+
+  - MX (Mail Exchanger Record)
+
+    - MX records define which mail servers are responsible for receiving email for a domain.
+
+    - Each MX record has:
+
+      - **Priority value** (lower value = higher priority)
+      - **Mail server hostname** (FQDN) - example: mail1
+      
+      > A Fully Qualified Domain Name (FQDN) is the complete, specific address of a host on the internet
+
+    - When someone sends an email to your domain, their mail server looks up your MX records to know where to deliver the message.
+
+    - MX records do not contain IP addresses directly; they point to hostnames, which are resolved via A or AAAA records.
+
+    - MX records are configured through your DNS management panel.
+
+    - Example MX records for example.com:
+    
+      - Priority: 10, Mail server: mail1.example.com
+      - Priority: 20, Mail server: mail2.example.com
+
+      - mail1.example.com is the primary server.
+      - If mail1 is unavailable, mail2 will handle the email.
+
+  - Text records (TXT)
 
 ### WORK IN PROGRESS...
