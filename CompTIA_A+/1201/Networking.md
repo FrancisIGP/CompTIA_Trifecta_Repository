@@ -471,4 +471,150 @@ The content for this material is based from the [Official CompTIA A+ 220-1201 Ex
 
   - Proper network segmentation, firmware updates, and strong authentication can help secure IoT environments.
 
+### DNS Configuration
+
+- Recall: Domain Name System (DNS) is a well-known service that translates human-readable names in to computer-readable IP addresses, vice versa.
+
+- DNS server's are distributed databases scattered all over the internet that stores all registered domain names on the world wide web.
+
+  - Has 13 root server clusters (Over 1,000 actual servers)
+
+  - These root clusters allows us to communicate with:
+  
+    - Hundreds of generic top-level domains (gTLDs) - .com, .org, .net., etc. and over 275 country 
+
+    - Over 275 country code top-level domains (ccTLDs) - .us, .ca, .ph, .uk, etc.
+
+- The DNS hierarchy
+
+  - Allows us to have a systematic hierarchy to organize DNS infrastructures to make it sensible and accessible to worldwide.
+
+```
+. (Root Domain)
+└─── .com
+     ├─── .professormesser
+     │    ├─── www
+     │    ├─── live
+     │    ├─── mail
+     │    │    ├─── trey
+     │    │    └─── katie
+     │    ├─── east
+     │    └─── west
+     │         ├─── ethan
+     │         └─── judy
+     ├─── .net
+     ├─── .edu
+     └─── .org
+```
+
+- Root Domain (.): The conceptual top of the DNS tree.
+
+- Top-Level Domains (TLDs): Directly below the root, these include familiar extensions like .com, .net, .edu, and .org.
+
+- Second-Level Domains (e.g., .professormesser): Registered names directly under a TLD.
+
+- Subdomains (e.g., www, live, mail, east, west): Further divisions under a second-level domain. These can be used to organize content or services (e.g., mail.professormesser.com).
+
+- Hosts/Entities (e.g., trey, katie, ethan, judy): The lowest level shown, representing specific devices or users within a subdomain.
+
+- DNS lookup
+
+  - Tools might be necessary to help you gather insights on how a specific DNS server is configured.
+
+  - Dig command
+
+    - A common tool for Linux and MacOS, some Windows versions might have an installable version of dig, that allows you perform a query against a DNS server.
+
+    - dig (Domain Information Groper)
+
+    - A command-line tool used to query DNS servers directly.
+    
+    - Mainly used by network admins and IT professionals to troubleshoot DNS issues, check DNS records, and verify domain configurations.
+
+    - dig gives detailed output including:
+
+      - DNS response codes
+      - Query times
+      - Individual record details (A, AAAA, MX, NS, TXT, etc.)
+      - Full DNS server responses
+
+    - Syntax example:  
+
+      - dig google.com
+      - dig google.com MX
+
+    - Often preferred over nslookup because it provides more detailed and modern output.
+
+```
+dig professormesser.com
+
+; <<>> DiG 9.18.30-0ubuntu0.24.04.2-Ubuntu <<>> professormesser.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27716
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;professormesser.com.           IN      A
+
+;; ANSWER SECTION:
+professormesser.com.    300     IN      A       172.67.41.114
+professormesser.com.    300     IN      A       104.22.73.108
+professormesser.com.    300     IN      A       104.22.72.108
+
+;; Query time: 56 msec
+;; SERVER: 10.255.255.254#53(10.255.255.254) (UDP)
+;; WHEN: Thu Jun 12 23:14:12 CST 2025
+;; MSG SIZE  rcvd: 96
+```
+
+  - nslookup (Name Server Lookup)
+
+    - Another command-line tool used to query DNS servers.
+
+    - Commonly used for quick DNS lookups and basic troubleshooting.
+
+    - Can retrieve:
+      - IP addresses for domain names
+      - DNS record information (A, MX, NS, etc.)
+
+    - Syntax example:
+      - nslookup google.com
+
+    - Simpler and more widely available across different systems, but not as detailed as dig.
+
+```
+nslookup professormesser.com
+
+Server:         10.255.255.254
+Address:        10.255.255.254#53
+
+Non-authoritative answer:
+Name:   professormesser.com
+Address: 172.67.41.114
+Name:   professormesser.com
+Address: 104.22.73.108
+Name:   professormesser.com
+Address: 104.22.72.108
+```
+
+- DNS Records
+
+  - Queries that are performed against DNS servers returns information which are obtained from DNS records called resource records (RR).
+
+  - Resource records contains over 30 record types:
+
+    - IP addresses
+    - Certifications
+    - Host alias names
+    - etc.
+
+   - These DNS configurations are critical making one mistake cause these devices to be suddenly unavailable to the internet.
+
+   - Make sure to make backups to prevent problems.
+
+- DNS Configuration
+
 ### WORK IN PROGRESS...
