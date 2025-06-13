@@ -693,6 +693,71 @@ example.com.       3600   IN   A       93.184.216.34
       - mail1.example.com is the primary server.
       - If mail1 is unavailable, mail2 will handle the email.
 
-  - Text records (TXT)
+  - TXT (Text Record)
+
+    - TXT records allow domain owners to store any text information in DNS.
+
+    - Originally made for human-readable notes but now heavily used for email security and domain verification.
+
+    - Common uses:
+
+      - **SPF (Sender Policy Framework)**
+
+        - Helps prevent spammers and spoofing emails from pretending to be from your domain.
+        
+        - Lists authorized servers allowed to send email on behalf of your domain.
+        
+        - Email servers check this record to verify if the sending server is legitimate.
+        
+        - Example:
+          - "v=spf1 include:_spf.google.com ~all"
+
+      - **DKIM (DomainKeys Identified Mail)**
+
+        - Adds a digital signature to outgoing emails.
+        
+        - The public key for verifying these signatures is stored in a TXT record.
+        
+        - Receiving servers verify that the message hasn’t been altered and that it truly came from your domain.
+        
+        - Example:
+          - "v=DKIM1; k=rsa; p=MIGfMA0GCSq..."
+
+      - **DMARC (Domain-based Message Authentication, Reporting, and Conformance)**
+        
+        - Works together with SPF and DKIM.
+        
+        - Tells receiving servers what to do if an email fails authentication (e.g. reject, quarantine, or allow).
+        
+        - Can also send reports to the domain owner about email authentication activity.
+        
+        - Example:
+          - "v=DMARC1; p=reject; rua=mailto:dmarc-reports@example.com"
+
+      - **Domain Verification**
+        
+        - Used by cloud services (Google, Microsoft 365, etc.) to verify domain ownership.
+        
+        - Usually done by placing a special code in a TXT record.
+        
+        - Example:
+          - "google-site-verification=abc123"
+
+      - **Other Custom Configurations**
+        
+        - Some services store custom configuration settings, API keys, or other metadata in TXT records.
+        
+        - Depends on the service's specific needs.
+
+    - Syntax:
+      
+      - TXT records are entered as plain text strings inside your DNS management system.
+      
+      - Multiple TXT records can exist for a single domain.
+
+    - Sample commands usage:
+
+      - dig professormesser.com txt
+      - nslookup -type=txt professormesser.com
 
 ### WORK IN PROGRESS...
