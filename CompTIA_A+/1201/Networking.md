@@ -489,6 +489,16 @@ The content for this material is based from the [Official CompTIA A+ 220-1201 Ex
 
   - Allows us to have a systematic hierarchy to organize DNS infrastructures to make it sensible and accessible to worldwide.
 
+  - Root Domain (.): The conceptual top of the DNS tree.
+
+  - Top-Level Domains (TLDs): Directly below the root, these include familiar extensions like .com, .net, .edu, and .org.
+
+  - Second-Level Domains (e.g., .professormesser): Registered names directly under a TLD.
+
+  - Subdomains (e.g., www, live, mail, east, west): Further divisions under a second-level domain. These can be used to organize content or services (e.g., mail.professormesser.com).
+
+  - Hosts/Entities (e.g., trey, katie, ethan, judy): The lowest level shown, representing specific devices or users within a subdomain.
+
 ```
 . (Root Domain)
 └─── .com
@@ -506,16 +516,6 @@ The content for this material is based from the [Official CompTIA A+ 220-1201 Ex
      ├─── .edu
      └─── .org
 ```
-
-  - Root Domain (.): The conceptual top of the DNS tree.
-
-  - Top-Level Domains (TLDs): Directly below the root, these include familiar extensions like .com, .net, .edu, and .org.
-
-  - Second-Level Domains (e.g., .professormesser): Registered names directly under a TLD.
-
-  - Subdomains (e.g., www, live, mail, east, west): Further divisions under a second-level domain. These can be used to organize content or services (e.g., mail.professormesser.com).
-
-  - Hosts/Entities (e.g., trey, katie, ethan, judy): The lowest level shown, representing specific devices or users within a subdomain.
 
 - DNS lookup
 
@@ -630,6 +630,7 @@ Address: 104.22.72.108
 
     - AAAA Record (IPv6 Address Record) - records for IPv6 addresses
 
+      - Can also be called Quad A record
       - Maps a domain name to an IPv6 address.
       - Example: google.com → 2607:f8b0:4009:80b::200e
 
