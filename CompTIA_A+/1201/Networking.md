@@ -471,6 +471,8 @@ The content for this material is based from the [Official CompTIA A+ 220-1201 Ex
 
   - Proper network segmentation, firmware updates, and strong authentication can help secure IoT environments.
 
+### 2.4 Explain common network configuration concepts
+
 ### DNS Configuration
 
 - Recall: Domain Name System (DNS) is a well-known service that translates human-readable names in to computer-readable IP addresses, vice versa.
@@ -760,5 +762,130 @@ example.com.       3600   IN   A       93.184.216.34
 
       - dig professormesser.com txt
       - nslookup -type=txt professormesser.com
+
+- DHCP Configuration
+
+  - Recall: DHCP automatically assigns IP addresses and network settings to devices on a network.
+
+  - Common settings given: IP address, subnet mask, gateway, DNS servers.
+
+  - DORA Process (DHCP 4-step process)
+
+    1. **Discover** — Client broadcasts looking for DHCP servers. Usually broadcasted (255.255.255.255:udp/67) under the address (0.0.0.0:udp/68)
+    2. **Offer** — Server responds with an available IP address.
+    3. **Request** — Client requests to accept the offered IP.
+    4. **Acknowledge** — Server confirms and assigns the IP to the client.
+  
+  - Leases
+
+    - Devices leases an IP addresses which are assigned temporarily by the DHCP server.
+    
+    - The lease has an expiration time in which clients has renew leases before they expire to keep the IP.
+
+  - Reservations
+
+    - There are instances where an admin needs to assign a fixed IP to a device based on its MAC address, often for mission-critical devices that require a stable IP address.
+    
+    - The device will always receive the same IP when requesting DHCP from the network.
+
+    - Other names:
+
+      - Static DHCP assignment
+      - Static DHCP
+      - IP reservation
+
+  - Exclusions
+
+    - Unlike reservations (where IPs are still managed by DHCP), exclusions completely block certain IP addresses from being assigned to any device.
+
+    - Used to prevent DHCP from handing out specific IPs, usually because those IPs are manually assigned elsewhere to static devices like servers or printers, to avoid conflicts.
+
+    - Example: Exclude 192.168.1.100 if it’s manually assigned to a static server.
+
+  - DHCP Scope 
+
+    - It refers to the pre-configured pool of IP addresses (and related network settings) that DHCP can hand out to devices including excluded and reserved IP addresses.
+
+      - These pool of addresses that are configured to be automaticall assigned are also known as DHCP pool.
+
+    - Scope defines *what* the DHCP server can assign for a specific network.
+    
+    - Example: 192.168.1.100 to 192.168.1.200.
+
+    - Other network settings included:
+
+      - Subnet mask
+      - Lease duration
+      - DNS server
+      - Default gateway
+      - etc.
+
+- LAN (Local Area Network)
+
+  - A network of devices within a limited area (office, building, home, etc.).
+
+  - By default, all devices in the same LAN are part of the **same broadcast domain**.
+
+  - A broadcast domain means:
+
+    - Broadcast messages (like ARP requests) are received by all devices within that LAN.
+
+- VLAN (Virtual LAN)
+
+  - An efficient way to break up a single LAN into multiple virtual networks (VLAN).
+
+  - Even though devices are physically connected to the same switch, VLANs separate them logically, making it efficient and cost-effective without having to buy another switch!
+
+  - Each VLAN is its own **separate broadcast domain**. Devices in one VLAN do not see broadcasts from other VLANs.
+
+- VPN (Virtual Private Network)
+
+  - A network device that adds a layer of security by encrypting (private) data traversing a public network.
+
+    - VPN Encryption Process
+
+      - Encryption ensures data cannot be read by anyone except the intended parties.
+
+      - Secures data from unwanted parties like hackers.
+
+      - VPN uses protocols like IPsec, SSL/TLS to create a secure tunnel.
+
+  - Can be built-in to the system or can be a third party software.
+  
+  - VPN Concentrator
+
+    - A specialized device (or software) that manages many VPN connections at once.
+    
+    - Handles encryption, authentication, and traffic for multiple users or sites.
+    
+    - Often integrated into a VPN firewall or other purpose-built devices.
+    
+    - Acts as a central hub for VPN traffic.
+
+  - VPN Types:
+
+    - Client-to-Site VPN (Remote Access VPN)
+
+      - A single user connects securely to a company network over the internet, often used by remote workers.
+      
+      - Requires VPN client software on the user's device to initiate the connection.
+
+      - The encrypted data from the client is sent over the internet and decrypted by the VPN concentrator (or VPN gateway) at the company network.
+
+      - Can be configured as always-on, automatically connecting when the device powers up or connects to any network.
+
+      - Example: A worker accessing company resources (files, applications, intranet) remotely.
+
+    - Site-to-Site VPN
+
+      - Connects two entire networks together over the internet; commonly used to link multiple office locations.
+
+      - Usually set up on routers, firewalls, or dedicated VPN appliances. Some Unified Threat Management (UTM) devices can also handle site-to-site VPNs.
+
+      - The VPN concentrator function is usually integrated into the network devices at both sites, so no separate client software is needed on individual devices.
+
+      - Example: The head office network connected securely to a branch office network.
+
+### 2.5 Compare and contrast common networking hardware devices
 
 ### WORK IN PROGRESS...
