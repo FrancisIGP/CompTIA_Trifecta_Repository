@@ -920,8 +920,6 @@ example.com.       3600   IN   A       93.184.216.34
     - Fiber
     - etc. 
 
-Your write-up is mostly correct, but let me fine-tune it a bit for better accuracy and flow. Here’s a slightly improved version:
-
 - Switches
 
   - An intelligent networking device mainly used in wired networks. It acts as a central connection point, allowing devices to communicate with each other.
