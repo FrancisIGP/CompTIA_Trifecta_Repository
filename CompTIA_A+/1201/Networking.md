@@ -888,4 +888,243 @@ example.com.       3600   IN   A       93.184.216.34
 
 ### 2.5 Compare and contrast common networking hardware devices
 
+- Normally, on network enterprise you would encounter many network racks containing several devices, each having its own networking functionality or role.
+
+- These networking functions can be standalone or have several functionalities built-in to a single device. Some of these functionalities include:
+
+  - Routing
+  - Switching
+  - Firewall
+  - etc.
+
+- Router
+
+  - A layer 3 device that connects different networks together and makes forwarding decisions based on the IP destination of an IP packet.
+
+    - Keeps a routing table that helps it decide the best path for data to travel.
+
+  - Routers would also sometimes have switching capabilities. This multi-functional device is called a layer switch.
+
+  - Can also have other functionalities like:
+
+    - NAT (Network Address Translation)
+    - Firewall features
+    - DHCP server
+    - VPN support
+
+  - Routers connects diverse network types including:
+
+    - LAN
+    - WAN
+    - Copper
+    - Fiber
+    - etc. 
+
+Your write-up is mostly correct, but let me fine-tune it a bit for better accuracy and flow. Here’s a slightly improved version:
+
+- Switches
+
+  - An intelligent networking device mainly used in wired networks. It acts as a central connection point, allowing devices to communicate with each other.
+
+  - Primarily makes forwarding decisions based on **MAC addresses**, unlike routers which use **IP addresses** for routing decisions.
+
+  - Contains an **application-specific integrated circuit (ASIC)** that enables high-speed and efficient forwarding of network traffic.
+
+  - May have several to hundreds of port interfaces for devices to connect to, depending on the switch type.
+
+    - Some switches provide **Power over Ethernet (PoE)** functionality, allowing the same cable to deliver both power and network connectivity to devices.
+
+  - Some switches may also support additional networking functions such as routing, making them **Layer 3 switches** or **multilayer switches**.
+
+  - 2 Types of Switches
+
+    - Managed Switches
+
+      - Allow full configuration and control over network traffic using a simple network management protocol (SNMP) which enables performance monitoring, fault detection, and remote management.
+      
+      - Support features like VLANs, QoS, port security, SNMP monitoring, and remote management.
+      
+      - Used in enterprise or larger networks where advanced control is needed.
+
+    - Unmanaged Switches
+
+      - Basic plug-and-play devices with no configuration options.
+      
+      - Simply forward traffic between connected devices.
+      
+      - Used in small networks or home setups where advanced features aren’t necessary.
+
+      - Significantly cheaper compared to managed switches
+
+- Access Point (AP) or Wireless Access Point (WAP)
+
+  - A device that allows wireless devices (laptops, phones, tablets) to connect to a wired network.
+
+  - Acts as a bridge between wireless devices and the wired LAN.
+
+  - Connects to the network using an Ethernet cable and provides Wi-Fi signal to nearby wireless devices.
+
+  - Also makes forwarding decisions based on MAC address.
+
+  - In large networks, multiple access points are used to provide full wireless coverage.
+
+  - Often managed centrally by a wireless controller in enterprise networks.
+
+- Cable infrastructure
+
+  - Refers to the physical cabling used to connect devices in a network (computers, switches, routers, servers).
+
+  - Enterprise networks would usually have company devices connected to a network closet via a wired connection.
+
+  - These wired connections are often "punched down" into a block using a punch down tool, securing the wire and cutting off excess, simplifying wire management.
+
+  - Normally it would have extra interfaces available for extra devices to connect to. It is interchangeable unlike punched down cables which are fixed.
+
+  - Common types: twisted-pair cables (Cat5e, Cat6, Cat6a), fiber optics, coaxial cables.
+
+  - Includes:
+    - Patch panels
+    - Wall jacks
+    - Patch cords
+    - Cable trays and management systems
+
+- Patch Panel
+
+  - A central point where network cables from different areas are terminated.
+  
+  - Provides a clean, organized way to manage and rearrange network connections.
+  
+  - Cables are permanently punched down into the back, while short patch cables connect the front ports (usually RJ45 connectors) to network equipment like switches.
+
+  - Benefits:
+
+    - Keeps cabling organized and neat.
+    
+    - Makes it easy to reconfigure connections without touching permanent cabling.
+    
+    - Simplifies troubleshooting and maintenance.
+    
+    - Protects the permanent cabling from wear since only patch cords are handled regularly.
+
+    - Good for extending network functionalties.
+
+- Firewall
+
+  - A device or software that monitors and controls incoming and outgoing network traffic.
+  
+    - Enforces security policies to allow or block traffic based on rules.
+  
+    - Some modern firewalls (next-generation) can filter based on the application. 
+
+  - Can be hardware-based, software-based, or both.
+  
+  - Protects the network from unauthorized access, malware, and other threats.
+
+  - Can also have other networking functionalties:
+
+    - Routing
+    - VPN concentrator
+    - Proxy
+
+- Power over Ethernet (PoE)
+
+  - A technology that allows network cables (Ethernet) to carry both data and electrical power.
+  
+  - Used to power devices like IP cameras, wireless access points, VoIP phones without needing separate power cables. Useful in difficult-to-power areas.
+  
+  - Simplifies installation and reduces cabling.
+
+  - PoE Types:
+
+    - PoE (IEEE 802.3af)
+
+      - Supplies up to **15.4 watts** of power per port.
+      
+      - Used for low-power devices like VoIP phones and some wireless access points.
+
+    - PoE+ (IEEE 802.3at)
+
+      - Supplies up to **25.5 watts** of power per port.
+      
+      - Supports devices that need more power like modern access points, cameras, or video phones.
+
+    - PoE++ (IEEE 802.3bt)
+
+      - Two types:
+
+        - **Type 3**: Up to **60 watts** per port.
+        - **Type 4**: Up to **100 watts** per port.
+
+      - Supports high-power devices like PTZ cameras, LED lighting, large access points, or even thin clients.
+
+- PoE Injector
+
+  - A small device that adds electrical power to the Ethernet cable for devices that support Power over Ethernet (PoE).
+
+  - Used when your switch or network equipment doesn’t support native PoE.
+
+  - How it works:
+    
+    - The network cable from the switch/router connects to the injector's data input port.
+    
+    - The injector combines data and power.
+    
+    - The output port sends both data and power over one cable to the PoE device.
+
+  - Useful for powering PoE devices without replacing non-PoE switches.
+
+- Cable Modem
+
+  - Provides internet access over **coaxial cable** (same cable used for cable TV).
+  
+  - Connects to the Internet Service Provider (ISP) through the cable network infrastructure.
+  
+  - Uses **DOCSIS (Data Over Cable Service Interface Specification)** standard for communicating.
+  
+  - Usually offers higher speeds compared to DSL due to wider bandwidth availability.
+
+  - Supports different data types: voice, video, data.
+
+- DSL (Digital Subscriber Line)
+
+  - Provides internet access over **standard telephone lines (twisted pair copper)**.
+  
+  - Unlike dial-up, DSL allows simultaneous phone and internet use.
+  
+  - Has limited speed and distance:
+    
+    - The farther you are from the ISP’s central office (CO), the slower and weaker the signal.
+  
+  - Two main types:
+
+    - **ADSL (Asymmetric DSL)**: faster download, slower upload.
+    
+    - **VDSL (Very-high-bit-rate DSL)**: faster but works best over short distances.
+
+- Optical Network Terminal (ONT)
+
+  - A device used in fiber-optic internet connections, connecting the ISP fiber networks to copper networks.
+  
+  - Converts fiber-optic signals into Ethernet for use by home or business networks.
+  
+  -  Usally located on a demarcation point (demarc). Can either be in a data center or a terminal box around the area.
+
+    - The demarcation point is where the ISP’s network ends and your network begins.  
+    
+    - The ISP is responsible up to that point; you handle everything after it.
+
+- Network Interface Card (NIC)
+
+  - A hardware component that allows a device to connect to a network.
+  
+  - Can be wired (Ethernet NIC) or wireless (Wi-Fi NIC).
+  
+  - Responsible for handling physical and data link layer communication.
+
+    - Contains a Media Access Control (MAC) address which is a unique hardware designation specific for your device.
+  
+  - Often built into modern computers (motherboard), servers, and other networked devices, while some are modular components such as expansion cards.
+
+### 2.6 Given a scenario, configure basic wired/wireless small office/home office (SOHO) networks
+
 ### WORK IN PROGRESS...
