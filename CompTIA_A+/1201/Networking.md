@@ -1102,6 +1102,8 @@ example.com.       3600   IN   A       93.184.216.34
 - Optical Network Terminal (ONT)
 
   - A device used in fiber-optic internet connections, connecting the ISP fiber networks to copper networks.
+
+    - Supports Fiber-to-the-premises (FTTP) and Fiber-to-the-home (FTTH) / Copper-to-the-home (CTTH).
   
   - Converts fiber-optic signals into Ethernet for use by home or business networks.
   
