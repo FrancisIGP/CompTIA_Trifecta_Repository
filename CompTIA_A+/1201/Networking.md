@@ -1127,4 +1127,85 @@ example.com.       3600   IN   A       93.184.216.34
 
 ### 2.6 Given a scenario, configure basic wired/wireless small office/home office (SOHO) networks
 
+- IPv4 (Internet Protocol version 4)
+
+  - The most widely used version of IP today.
+  
+  - Uses **32-bit** addresses (example: 192.168.1.1).
+
+    - Format: Four decimal numbers separated by dots (e.g., 192.168.1.1)
+    - Each number = 8 bits → 4 x 8 = 32 bits total
+
+    - Example in binary:
+
+      - 192.168.1.1 → 11000000.10101000.00000001.00000001
+  
+  - Allows around **4.3 billion unique addresses**.
+  
+  - Limited address space, so NAT (Network Address Translation) is often used.
+  
+  - Example format: xxx.xxx.xxx.xxx (4 numbers between 0–255)
+
+  - Each IPv4 address has to be unique. If we have over 20 billion devices that is constantly growing and connecting to the internet while only having 20 billion IP addresses available wordlwide, there would be scalability issues.
+
+  - This scalability issue was addressed using a Network Address Translation (NAT) to convert some of those IP's into Public or IP addresses. 
+
+  - Private IP
+
+    - A private/internal address used inside local networks (homes, offices) and **not routable on the internet**.
+    
+    - Devices with private IPs use NAT (Network Address Translation) to access the internet through a public IP.
+
+    - Common private IP ranges:
+
+      | IP Range             | Address Type | CIDR Notation       | Number of IPs         | Common Use                        |
+      |----------------------|--------------|----------------------|------------------------|-----------------------------------|
+      | 10.0.0.0 – 10.255.255.255     | Private       | 10.0.0.0/8            | 16,777,216 IPs        | Large private networks (e.g., enterprise) |
+      | 172.16.0.0 – 172.31.255.255   | Private       | 172.16.0.0/12         | 1,048,576 IPs         | Medium-sized networks             |
+      | 192.168.0.0 – 192.168.255.255 | Private       | 192.168.0.0/16        | 65,536 IPs            | Small/home networks               |
+      | All others outside RFC 1918   | Public        | Varies                | Globally allocated     | Used for internet-accessible devices |
+
+      - These standard ranges were defined in Request For Comment (RFC) 1918.
+
+  - Public IP
+
+    - Assigned by your ISP and used to communicate over the public internet.
+    
+    - Globally unique — no two devices on the internet should have the same public IP.
+
+    - Used by routers, servers, and websites accessible from the internet.
+
+- IPv6 (Internet Protocol version 6)
+
+  - Newer version designed to replace IPv4.
+  
+  - Uses **128-bit** addresses
+
+    - Format: Eight groups of four hexadecimal digits separated by colons
+
+    - Each hex digit = 4 bits → 32 hex digits × 4 = 128 bits
+
+    - Example in binary (simplified):
+    - 2001:0db8:85a3:0000:0000:8a2e:0370:7334
+    
+      - 2001 = 00100000 00000001 
+
+      - 0db8 = 00001101 10111000 
+    
+      - (continues...)  
+    
+      - Total = 128 bits
+
+    - First 64-bits of the address refers to the network prefix / subnet mask (/64).
+
+    - Last 64-bits of the address refers to the host address which is the unique identifier assigned to a device on a network.
+  
+  - Supports about **340 undecillion addresses** (way more than IPv4) eliminating scalability issues.
+   
+  - Built-in features: no need for NAT, better security, and auto-configuration.
+  
+  - Uses hexadecimal and colons to separate segments.
+
+  - Since these addresses are lengthy and difficult to familiarize, we rely on DNS servers to reference these addresses by their FQDN.
+
 ### WORK IN PROGRESS...
